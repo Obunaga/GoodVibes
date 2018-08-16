@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+}
+
 span,
 p {
     background-color: black;
@@ -5,4 +9,26 @@ p {
     color: antiquewhite;
     text-align: center;
     size: 25 px;
+    display: block;
+}
+
+img {
+    display: block;
+}
+
+.main {
+    background: gray;
+    height: 960px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.child {
+    background: teal;
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
